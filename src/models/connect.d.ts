@@ -1,7 +1,7 @@
 import { AnyAction } from 'redux';
 import { Router } from 'umi';
-import { LoginStateType } from './login';
 import { UserStateType } from '@/models/user';
+import { LoginStateType } from './login';
 
 export interface Loading {
   global: boolean;

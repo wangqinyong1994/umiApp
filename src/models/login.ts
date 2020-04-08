@@ -1,8 +1,3 @@
-import { Reducer } from 'redux';
-import { Effect, routerRedux } from 'dva';
-import { setToken } from '@/utils';
-import { ConnectState } from '@/models/connect';
-
 export interface LoginStateType {
   refreshToken: string;
   token: string;

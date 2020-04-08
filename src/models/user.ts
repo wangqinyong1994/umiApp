@@ -1,7 +1,3 @@
-/* eslint-disable no-param-reassign */
-import { Reducer } from 'redux';
-import { Effect } from 'dva';
-
 export interface UserInfoType {}
 
 export interface AuthInfoType {}

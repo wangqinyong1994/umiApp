@@ -1,8 +1,7 @@
 import React from 'react';
-import styles from './index.less';
 
-const GlobalHeader: React.FunctionComponent = props => {
-    return (<div></div>)
-}
+const GlobalHeader: React.FunctionComponent = (props) => (
+  <div>{props.children}</div>
+);
 
-export default GlobalHeader
+export default GlobalHeader;

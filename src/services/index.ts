@@ -1,10 +1,9 @@
 import request from '@/utils/request';
 
 // mock
-export const getCityList = async () => {
-  return request('/api/tags', {
+export const getCityList = async () =>
+  request('/api/tags', {
     method: 'GET',
   });
-};
 
 // dev
