@@ -60,6 +60,7 @@
     "mockjs": "^1.1.0",
     "postcss-pxtorem": "^5.1.1",
     "prettier": "2.0.4",
-    "stylelint": "^13.3.0"
+    "stylelint": "^13.3.0",
+    "typescript": "^3.8.3"
   }
 }
