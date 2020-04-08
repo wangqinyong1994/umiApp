@@ -15,6 +15,12 @@
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "lint-staged": "lint-staged"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint-staged",
+      "commit-msg": "commitlint -e .git/COMMIT_EDITMSG --verbose"
+    }
+  },
   "lint-staged": {
     "*.{js,jsx,less,md,json}": [
       "prettier --write"
